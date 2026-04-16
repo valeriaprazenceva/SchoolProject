@@ -145,7 +145,7 @@ h3 {
 }
 
 .B_3 {
-    width: 50%;
+    width: 720px;
     height: 600px;
     background-color: #FFF3E4;
     display: flex;
@@ -183,7 +183,7 @@ img[alt="K_3_1"] {
     display: none;
 }
 img[alt="K_3"] {
-    width: 50%;
+    width: 720px;
     height: 600px;
     object-fit: cover;
 }
