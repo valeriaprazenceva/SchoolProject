@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+html{
+    font-family: "Sen", sans-serif;
+    max-width: 1440px;
+    max-height: 88px;
+    color: white;
+    background-color: black;
+}
+header {
+    width: 1440px;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.Logo {
+    padding: 70px;
+}
+.a1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 80px 0px 0px;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.li1 {
+    color: white;
+    list-style: none;
+    padding: 30px 30px;
+    z-index: 2;
+}
+.li1:hover {
+    background-color: #5221E6;
+}
+.ONE_CH {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 80px 0px;
+}
+.Z_1 {
+    font-size: 65px;
+}
+.P_1 {
+    width: 738px;
+    height: 368px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    position: absolute;
+    left: 662px;
+}
+.Gray_T {
+    color: #8491A0;
+}
+.Kvadrat {
+    width: 900px;
+    height: 900px;
+    background-color: #181823;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    left: 540px;
+    top: 0px;
+}
+.img_1 {
+    z-index: 2;
+}
+img[alt="K_2"] {
+    display: none;
+}
+.linia1, .linia2 {
+    display: none;
+}
+
+.Blok_1 {
+    height: 715px;
+}
+.Pid_1 {
+    font-size: 16px;
+    color: #8491A0;
+    position: absolute;
+    left: 80px;
+    top: 990px;
+}
+.Z_2 {
+    font-size: 55px;
+    width: 690px;
+}
+.B_1 {
+    margin-left: 72px;
+    margin-top: 120px;
+}
+.B_2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 24px;
+    margin: 72px auto;
+    max-width: 1350px;
+}
+.card {
+    width: 350px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.card-num {
+    color: #8491A0;
+    font-size: 117px;
+    line-height: 1;
+    margin: 0 0 20px 0;
+}
+
+h3 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.Green_T { color: #3CC74E; }
+.Blue_T { color: #5221E6; }
+.Pink_T { color: #E95D90; }
+
+.Pid {
+    color: #8491A0;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.Blok_2 {
+    display: flex;
+    flex-direction: row;
+}
+.parent{
+    display: flex;
+}
+
+.B_3 {
+    width: 50%;
+    height: 600px;
+    background-color: #FFF3E4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.Z_3 {
+    color: #181823;
+    font-size: 55px;
+}
+.T_2 {
+    width: 576px;
+    color: #5B6876;
+    font-size: 18px;
+}
+.KN_1 {
+  text-decoration: none;
+  color: #181823;
+  position: absolute;
+  top: 2230px;
+  left: 45px;
+}
+
+.line{
+    border-top: solid #8491A0 1px;
+    padding: 0;
+    width: 8%;
+    position: absolute;
+    top: 2255px;
+    left: 45px;
+}
+
+img[alt="K_3_1"] {
+    display: none;
+}
+img[alt="K_3"] {
+    width: 50%;
+    height: 600px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #181823;
+    height: 422px;
+}
+img[alt="FIN_K"] {
+    margin-top: 80px;
+    margin-left: 72px;
+}
+.Logo_1 {
+    margin-left: 72px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    width: 104px;
+}
+.T_F {
+    color: #8491A0;
+    margin-left: 72px;
+    margin-top: 155px;
+    font-size: 16px;
+    width: 329px;
+}
+.F_B {
+    display: flex;
+    flex-direction: row;
+}
+.P_FINAL, .P_FINAL1 {
+    display: flex;
+    flex-direction: column;
+    height: 192px;
+    text-decoration: none;
+    margin-top: 80px;
+}
+.P_FINAL {
+    margin-left: 350px;
+}
+.P_FINAL1 {
+    margin-left: 100px;
+}
+.li2 {
+    color: white;
+    list-style: none;
+    padding: 15px;
+    font-size: 16px;
+}
+.T_F1 {
+    display: none;
+}
+
+@media (max-width: 768px) {
+  .Kvadrat {
+    display: none;
+  }
+   html, header {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    header {
+        width: 100%;
+        height: auto;
+        flex-direction: row; 
+        padding: 10px 0;
+    }
+    .Logo {
+        padding: 20px;
+    }
+
+    .ONE_CH {
+        flex-direction: row;
+        width: 728px;
+    }
+    .P_1 {
+        position: absolute;
+        width: 408px;
+        height: auto;
+        left: 320px;
+        top: 200px;
+        margin-top: 30px;
+        align-items: center;
+    }
+    .T_1 {
+        font-size: 18px;
+    }
+    .Z_1 {
+        font-size: 56px;
+        line-height: 1.2;
+    }
+    .img_1 {
+        top: 80px;
+        width: 384px;
+        height: 650px;
+    }
+    img[alt="K_1"] {
+        display: none;
+    }
+    img[alt="K_2"] {
+        display: flex;
+        width: 384px;
+        height: 650px;
+    }
+
+    .Blok_1 {
+        height: 757px;
+        width: 768px;
+    }
+    .card {
+        width: 190px;
+        padding: 20px;
+    }
+    .B_2 {
+        display: flex;
+        flex-direction: row;
+    }
+    .B_1 {
+        margin-left: 40px;
+        margin-top: 120px;
+    }
+    .Pid_1 {
+        position: absolute;
+        left: 50px;
+        top: 1030px;
+    }
+    .B_3 {
+        width: 384px;
+        height: 600px;
+    }
+    .Z_3 {
+        width: 304px;
+    }
+    .T_2 {
+        width: 304px;
+    }
+    img[alt="K_3"] {
+        display: none;
+    }
+    img[alt="K_3_1"] {
+        display: flex;
+    }
+    .KN_1 {
+        top: 2340px;
+        left: 40px;
+    }
+    .line {
+        top: 2365px;
+        left: 40px;
+        width: 116px;
+    }
+
+    .Logo_1 {
+        margin-left: 40px;
+    }
+    img[alt="FIN_K"] {
+        margin-left: 40px;
+    }
+    .T_F {
+        margin-left: 40px;
+    }
+    .P_FINAL {
+        margin-left: 40px;
+    }
+    .P_FINAL1 {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .a1 {
+        display: none;
+    }
+
+    html, header {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    header {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        padding: 10px 0;
+    }
+    .Logo {
+        padding: 20px;
+    }
+    img[alt="LOGO"] {
+        width: 78.4px;
+        height: 24px;
+    }
+    .linia1 {
+        display: block;
+        width: 18px;
+        height: 3px;
+        background-color: #C4C4C4;
+        margin: 5px 0;
+    }
+    .linia2 {
+        display: block;
+        width: 13px;
+        height: 3px;
+        background-color: #C4C4C4;
+        margin: 5px 0;
+    }
+    .ONE_CH {
+        flex-direction: column;
+        width: 320px;
+        align-items: center;
+        justify-content: center;
+    }
+    .P_1 {
+        position: static;
+        width: 320px;
+        left: 0;
+        top: 0;
+        margin: 0 auto 30px auto;
+    }
+    .Z_1 {
+        font-size: 32px;
+        padding: 0px 7px;
+    }
+    .T_1 {
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+    .img_1 {
+        width: 100%;
+        height: auto;
+        top: 0;
+    }
+    img[alt="K_2"] {
+        display: none;
+    }
+    img[alt="K_1"] {
+        display: block;
+        width: 320px;
+        height: auto;
+    }
+
+    .Blok_1 {
+        height: auto;
+        width: 360px;
+    }
+    .B_1 {
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    .Z_2 {
+        font-size: 32px;
+        width: 320px;
+    }
+    .card {
+        width: 310px;
+        padding: 0px;
+        margin: 20px;
+    }
+    .B_2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .Pid_1 {
+        position: absolute;
+        left: 20px;
+        top: 850px;
+    }
+    .B_3 {
+        width: 320px;
+        align-items: center;
+    }
+    .parent {
+        flex-direction: column;
+    }
+    .Z_3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .line {
+        top: 2700px;
+        left: 20px;
+    }
+    .KN_1 {
+        top: 2680px;
+        left: 20px;
+        display: flex;
+    }
+    img[alt="K_3_1"] {
+        width: 320px;
+    }
+
+    .F_B {
+        display: flex;
+        flex-direction: column;
+    }
+    .P_FINAL {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .P_FINAL1 {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    footer {
+        width: 320px;
+        height: auto;
+    }
+    .T_F{
+        display: none;
+    }
+    .T_F1 {
+        display: flex;
+        color: #8491A0;
+        margin-left: 20px;
+    }
+}
